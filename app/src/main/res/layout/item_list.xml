@@ -9,6 +9,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@color/white"
         android:orientation="vertical"
         android:padding="16dp">
 
@@ -17,7 +18,7 @@
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:adjustViewBounds="false"
-            android:scaleType="centerCrop"/>
+            android:scaleType="centerCrop" />
 
         <TextView
             android:id="@+id/itemlist_textview_titulo"
@@ -34,8 +35,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:stretchColumns="0,2"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:stretchColumns="0,2">
 
             <TableRow
                 android:layout_width="match_parent"
@@ -51,16 +52,17 @@
                     android:textAppearance="?android:textAppearanceSmall"
                     android:textColor="@color/black" />
 
-                <View android:layout_width="1dp"
+                <View
+                    android:layout_width="1dp"
                     android:layout_height="match_parent"
-                    android:background="@android:color/darker_gray"/>
+                    android:background="@android:color/darker_gray" />
 
                 <TextView
                     android:id="@+id/itemlist_textview_data"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textAlignment="center"
                     android:text="Data Pub"
+                    android:textAlignment="center"
                     android:textAppearance="?android:textAppearanceSmall"
                     android:textColor="@color/black" />
 
@@ -73,6 +75,6 @@
             android:layout_height="match_parent"
             android:layout_marginTop="16dp"
             android:text="@string/button_itemlist_vermais"
-            android:textColor="@android:color/white"/>
+            android:textColor="@android:color/white" />
     </LinearLayout>
 </androidx.cardview.widget.CardView>
