@@ -8,11 +8,18 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="175dp"
+        android:layout_height="match_parent"
         android:adjustViewBound="false"
         android:scaleType="centerCrop"
         android:orientation="vertical"
         android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/itemlist_imageview_imagem"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:adjustViewBounds="false"
+            android:scaleType="center"/>
 
         <TextView
             android:id="@+id/itemlist_textview_titulo"
